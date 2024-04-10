@@ -1,0 +1,98 @@
+nav{
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+    margin-right: 0%;
+}
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2px 25px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.nav-link ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-link ul:hover{
+    background-color: coral;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+.banner{
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1416834065/photo/african-elephant-walking-with-tourist-car-stop-by-watching-during-sunset-at-masai-mara.webp?b=1&s=170667a&w=0&k=20&c=wUC1oyYmZ39pBJ_4iJxcoWPK-tBiTkNxanhy_9wdYTQ=);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.banner h1{
+    font-size: 50px;
+    color: blue;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+.banner p{
+    font-size: 30px;
+    justify-content:center;
+}
+main>section>.About{
+    padding-top: 3%;
+    gap: 10rem;
+
+}
+Main>section{
+    display: flex;
+
+}
+main>section h3{
+    font-size: 40px;
+}
+main>section p{
+    font-size: 20px;
+}
+#services>h3{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.733);
+
+}
+#activities{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+#activities td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+}
+#activities th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+#activities tr{
+    background-color: #f2f2f2;
+
+}
+#activities tr:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
